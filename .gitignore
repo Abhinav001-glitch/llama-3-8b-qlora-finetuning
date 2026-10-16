@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and generated artifacts
+outputs/
+checkpoints/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+
+# Secrets
+.env
+.env.*
+!.env.example
